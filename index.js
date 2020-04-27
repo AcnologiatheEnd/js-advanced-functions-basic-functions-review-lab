@@ -8,5 +8,8 @@ function mondayWork(act="go to the office") {
 }
 
 function wrapAdjective() {
-  return function()
+  return function(rtn = "special") {
+    
+  }
+  
 }
