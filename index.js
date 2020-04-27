@@ -7,3 +7,6 @@ function mondayWork(act="go to the office") {
   return(`This Monday, I will ${act}.`)
 }
 
+function wrapAdjective() {
+  return function()
+}
