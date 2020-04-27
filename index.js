@@ -14,4 +14,9 @@ function wrapAdjective(val = "*") {
   
 }
 
-let Calculator = {}
+let Calculator = {
+  
+  function add(num1, num2) {
+    return(num1 + num2)
+  }
+}
