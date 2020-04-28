@@ -31,9 +31,9 @@ let Calculator = {
 }
 
 function actionApplyer(int, arr) {
-  let total = int
+  let ans = int
   for (let i = 0; i < arr.length; i++) {
     total = arr[i](total)
   }
-  return total
+  return ans
 }
