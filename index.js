@@ -16,11 +16,11 @@ function wrapAdjective(val = "*") {
 
 let Calculator = {
   
-  //function add() {
-  //  return(1 + 3);
-  //}
-  
-  add: function (x, y) {
+  function add(x, y) {
     return x + y
   }
+  
+  //add: function (x, y) {
+  //  return x + y
+  //}
 }
