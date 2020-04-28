@@ -33,7 +33,7 @@ let Calculator = {
 function actionApplyer(int, arr) {
   let ans = int
   for (let i = 0; i < arr.length; i++) {
-    total = arr[i](total)
+    ans = arr[i](ans)
   }
   return ans
 }
